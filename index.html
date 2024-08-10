@@ -9,10 +9,15 @@
 </head>
 
 <body>
+    <div class="debug">
+        <p id="first">First: null</p>
+        <p id="second">Second: null</p>
+        <p id="operator">Operator: null</p>
+    </div>
     <div class="calculator">
         <div class="display">0</div>
         <div class="row">
-            <button class="other">AC</button>
+            <button id="AC" class="other">AC</button>
             <button class="other">+/-</button>
             <button class="other">%</button>
             <button class="operator">/</button>
@@ -38,7 +43,7 @@
         <div class="row">
             <button id="zero" class="number">0</button>
             <button id="dot" class="number">.</button>
-            <button class="operator">=</button>
+            <button id="equal" class="operator">=</button>
         </div>
     </div>
     <script src="./calculator.js"></script>
