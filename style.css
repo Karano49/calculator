@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 47, 53);
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  max-width: 350px;
+  border: 5px solid black;
+  border-radius: 3%;
+  gap: 2px;
+  background-color: black;
+  flex: 0.5;
+}
+
+.display {
+  flex: 1;
+  font-size: xx-large;
+  padding: 1%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+}
+
+.other,
+.operator,
+.number {
+  flex: 1;
+  border-radius: 20px;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+}
+
+.number {
+  background-color: rgb(124, 124, 124);
+  color: white;
+}
+
+.operator {
+  color: white;
+  background-color: rgb(230, 128, 11);
+}
+
+.other {
+  background-color: rgb(170, 170, 170);
+}
+
+#zero {
+  flex: 2;
+}
+
+#dot {
+}
